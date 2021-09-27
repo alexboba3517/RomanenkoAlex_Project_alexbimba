@@ -18,6 +18,7 @@ fun main() {
         "rt" -> print("$number1$operation$number2=${pow(number1,1/number2)}")
         "st" -> print("$number1$operation$number2=${pow(number1,number2)}")
 
+
                 else -> print("Такой операции не предусмотрено!")
     }
 }
